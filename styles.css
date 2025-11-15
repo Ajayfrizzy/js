@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color: cornflowerblue;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    max-width: 80vw;
+    margin: 1rem auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    color: red;
+    font-size: 2rem;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+ul li a:hover{
+    color: blue;
+    transition: ease-in-out 3ms;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+}
+
+fieldset{
+    padding: 2rem;
+}
+
+label, input{
+    width: 100%;
+    outline: none;
+    border-color: grey;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:valid{
+    border-color: green;
+}
