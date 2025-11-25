@@ -8,7 +8,4 @@ const number = document.querySelector('.pnumber').value.trim();
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-
-
-    checkValidation();
 });
