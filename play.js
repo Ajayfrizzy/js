@@ -195,12 +195,18 @@ if (showMe(age)){
 
 // console.log(sum(2, 4))
 
-let func = (question, yes, no) =>{
+/* let func = (question, yes, no) =>{
  if (confirm(question)) yes(); else no();
 }
 func(
     "Do you agree?",
     () => {alert("Yoh agree.");},
     () => {alert("You canceled the execution");}
-);
+); */
+
+let arr = [1,2,3,4,5,6,7];
+
+arr.reverse();
+
+console.log(arr);
     
