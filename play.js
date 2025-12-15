@@ -204,7 +204,7 @@ func(
     () => {alert("You canceled the execution");}
 ); */
 
-let arr = [65, 42, 78, 12, 89, 5];
+let arr = [65, 42, 78, 12, 5, 67, 90, 36];
 
 arr.sort(() => Math.random() - 0.5);
 
