@@ -204,7 +204,7 @@ func(
     () => {alert("You canceled the execution");}
 ); */
 
-let array = [65, 42, 78, 12, 5, 67, 90, 36, 23, 39, AbortController];
+let array = [65, 42, 78, 37, 56, 5, 67, 90, 36, 23, 39, AbortController];
 
 array.sort(() => Math.random() - 0.5);
 
